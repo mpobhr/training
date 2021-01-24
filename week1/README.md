@@ -41,12 +41,24 @@ It is Microsoft Technology to improve experience creating application. Net 5.0 p
 ## Introduction to C# Programming Language 
 
 ## Introduction to Visual Studio Code
+* Cross platform editor based on Electron
+* uses for web development center around javascript
+* Excellent C# Editor with Limited IDE capability
 
 ## Introduction to Git Source Control Management
+* Decentralize Source Control Management
+* Record code history and changes and involved files
+* Allow multiple people work on same code
+* Allow multiple version within same repository
+* Better handling multiple version, with branching
 * Init Repo, Staging, Commit, History, Remote, Push, Pull,Sync, Blame
 
 
 ## Introduction to Visual Studio 2019 (Community Edition)
-
+* Full fledge IDE for better development experience
+* Multiple Programming Language support
+* Multiple Platform Support
+* Command Line, Desktop, Mobile, Cloud, IoT
 
 ## Introduction to AspNetCore 5.0
+* Cross platform C# Web Application Framework
