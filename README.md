@@ -6,7 +6,10 @@
 * Net 5.0
 * C# Programming Language
 * Introduction to Visual Studio Code
+* Exercise with your own application 
 * Git Source Control Management
+* Github Repository Setup
+* Publish exercise project in github.
 * Introduction to Visual Studio 2019 (Community Edition)
 * Introduction to AspNetCore 5.0
    
@@ -14,11 +17,7 @@
 * Introduction to Asp.Net Core Model View Controller (MVC)
 * Introduction to Asp.Net Core Web API
 * Introduction to Asp.Net Core Razor Page
-* Preview of Asp.Net Core Blazor Application
-* Exercise with your own application 
-* Github Project Management, Repository Setup
-* Bug Tracking (issue), Milestone, Kaban Board
-* Publish exercise project in github.
+* Github Project Management, Bug Tracking (issue), Milestone, Kaban Board* 
 * Branching, Pull Request, Review, Merging
 * Git Stash, Reset, Rollback
 
