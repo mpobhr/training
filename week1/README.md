@@ -47,7 +47,12 @@ It is Microsoft Technology to improve experience creating application. Net 5.0 p
 * Multiple inherited for Interface
 * Namespace for separation of multiple class
 
-
+## .NET 5.0 SDK Command Line Interface
+* Create Project
+* Build Project
+* Run Project
+* Publish Project
+* Add or Restore Package
 
 ## Introduction to Visual Studio Code
 * Cross platform editor based on Electron
@@ -72,3 +77,7 @@ It is Microsoft Technology to improve experience creating application. Net 5.0 p
 
 ## Introduction to AspNetCore 5.0
 * Cross platform C# Web Application Framework
+* Cloud ready with micro services
+* High Performance [Benchmark](https://www.techempower.com/benchmarks/#section=data-r19&hw=ph&test=plaintext)
+* Support low level web application
+* Razor Page (Model View View Model - MVVM), Model View Controller (MVC), Web API for services, Blazor for Client Side.
