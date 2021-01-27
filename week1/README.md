@@ -11,6 +11,8 @@
 * Git 
     * [Download](https://git-scm.com/)
     * `$ git`
+* [REPL](https://sharplab.io)
+    
 
 ## NET 5.0
 It is Microsoft Technology to improve experience creating application. Net 5.0 provide better type safety and memory management compare with low level programming language such as C/C++ and provide better analysis compare to scripting language like JS.
