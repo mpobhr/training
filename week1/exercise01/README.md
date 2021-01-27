@@ -4,6 +4,7 @@ Basic File consist of:
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
         <OutputType>Exe</OutputType>
     </PropertyGroup>
 </Project>
