@@ -2,7 +2,7 @@
 
 ## Development setup
 * .NET 5.0 SDK:
-    * [Download](https://dotnet.microsoft.com/download/dotnet/5.0)
+    * [Download](https://dotnet.microsoft.com/download)
     * `$ dotnet --version`
     
 * Visual Studio Code:
@@ -65,6 +65,24 @@ It is Microsoft Technology to improve experience creating application. Net 5.0 p
 * Excellent C# Editor with Limited IDE capability
 * WSL and Remote Linux Project
 
+## Exercise
+* Setup git
+```sh
+$ git config --global user.name "Anton Heryanto Hasan"
+$ git config --global user.email anton@horizon3.my
+```
+* Create C# Project
+* create Hello.csproj
+* create Hello.cs
+
+* Create Repository at github
+```sh
+$ git add Program.cs
+$ git commit -m "initial commit"
+$ git remote add https://github.com/mpobhr/training
+$ git push origin master
+```
+
 ## Introduction to Git Source Control Management
 * Decentralize Source Control Management
 * Record code history and changes and involved files
@@ -72,6 +90,8 @@ It is Microsoft Technology to improve experience creating application. Net 5.0 p
 * Allow multiple version within same repository
 * Better handling multiple version, with branching
 * Init Repo, Staging, Commit, History, Remote, Push, Pull,Sync, Blame
+
+# Exercise 
 
 
 ## Introduction to Visual Studio 2019 (Community Edition)
