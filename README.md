@@ -22,12 +22,12 @@
 * Git Stash, Reset, Rollback
 
 ## Development Web Application with Asp.Net Core Razor Page
-* Configuration and Dependency Injection
-* Data Management with Database (Sql Server and MySQL)
-* Dapper and Entity Framework
 * Authentication and Authorization
 * CRUD (Create Report Update Delete) Process
 * Paging, Form Validation
+* Configuration and Dependency Injection
+* Data Management with Database (Sql Server and MySQL)
+* Dapper and Entity Framework
 * Layout, Partial Page
 * CSS and Javascript
 
