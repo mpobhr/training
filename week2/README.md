@@ -7,4 +7,15 @@
 * Commit and Push Changes to Github
 * Create View Model
 * Listing your record
-* Create Details Page
+
+## Create, Record, Update, Delete
+* Create Model for Data Structure
+* Listing record using table layout and card layout
+* Implement Details Page
+* Implement Edit Page
+* Prepare database (Sql Server / MySql / PostgreSql / Sqlite)
+* Connect to Database using Configuration with Dependency Injection
+* Introduction to ADO.NET
+* Introduction to Dapper
+* Introduction to Entity Framework Core
+
