@@ -37,11 +37,19 @@ Items = new List<Staff> {
 ```
 
 * Listing in Index.cshtml
-```cshtml
-<table>
+```html
+<table class="table">
+<thead>
+    <tr>
+        <td>Bil</td>
+        <td>Nama</td>
+    <tr>
+</thead>
 <tbody>
+@{var i = 1;}
 @foreach (var item in Model.Items) {
     <tr>
+        <td>@(i++).</td>
         <td>@item.Name</td>
     </tr>
 }
