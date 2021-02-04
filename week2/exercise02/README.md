@@ -20,7 +20,7 @@ namespace Hrs.Pages.Staffs
             };
 
             if (id > 0) {
-                Item = Items[id];
+                Item = Items[id - 1];
             }
         }
     }
@@ -33,6 +33,7 @@ namespace Hrs.Pages.Staffs
 @{
     ViewData["Title"] = Model.Item != null ? "Details": "Listing";
     int i = 1;
+    int id = 1;
 }
 
 @if (Model.Item != null) {
@@ -50,6 +51,7 @@ namespace Hrs.Pages.Staffs
             <th>Bil</th>
             <th>Nama</th>
             <th>No Pekerja</th>
+            <td>#</td>
         </tr>
     </thead>
     <tbody>
@@ -59,7 +61,11 @@ namespace Hrs.Pages.Staffs
                 <td>@(i++).</td>
                 <td>@item</td>
                 <td>@item.StaffId</td>
-            </tr>
+                <td>
+                    <a href="~/staffs/@id" class="btn btn-outline-success">Details</a>                    
+                </td>
+            </tr>            
+            id++;
         }
     </tbody>
 </table>
