@@ -1,6 +1,6 @@
 ## Show Edit Staff
 * copy Index.cshtml and Index.cshtml.cs
-* rename Index.cshtml to Edit.cshtml and Index.cshtml.cs to Edit.cshtml.cs
+* rename Index copy.cshtml to Edit.cshtml and Index copy.cshtml.cs to Edit.cshtml.cs
 * modify Edit.cshtml.cs
 ```cs 
 namespace Hrs.Pages.Staffs
@@ -31,7 +31,7 @@ namespace Hrs.Pages.Staffs
 @page "{id?}"
 @model EditModel
 @{
-    ViewData["Title"] = Model.Item != null ? "New Staff": "Edit Staff";
+    ViewData["Title"] = Model.Item != null ? "Edit Staff": "New Staff";
 }
 
 <form class="card">
@@ -39,6 +39,9 @@ namespace Hrs.Pages.Staffs
         <div class="form-group">
             <label asp-for="Item.Name"></label>
             <input asp-for="Item.Name">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Save</button>
         </div>
     </div>
 </form>
