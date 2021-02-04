@@ -8,7 +8,7 @@ namespace Hrs.Pages.Staffs
     public class EditModel : PageModel
     {
         public List<Staff> Items { get; set; } 
-        public Staff Item { get; set; }
+        [BindProperty] public Staff Item { get; set; }
         public void OnGet(int id = 0)
         {            
             Items = new List<Staff> {
@@ -23,7 +23,17 @@ namespace Hrs.Pages.Staffs
                 Item = Items[id - 1];
             }
         }
+
+        public IActionResult OnPost()
+        {
+            if (string.IsNullOrEmpty(Item.Name))
+                return Page();
+            
+            return Redirect("~/staffs");
+        }
     }
+
+
 }
 ```
 * modify Edit.cshtml
@@ -34,11 +44,11 @@ namespace Hrs.Pages.Staffs
     ViewData["Title"] = Model.Item != null ? "Edit Staff": "New Staff";
 }
 
-<form class="card">
+<form class="card" method="post">
     <div class="card-body">
         <div class="form-group">
             <label asp-for="Item.Name"></label>
-            <input asp-for="Item.Name">
+            <input asp-for="Item.Name" class="form-control">
         </div>
         <div class="form-group">
             <button class="btn btn-primary">Save</button>
