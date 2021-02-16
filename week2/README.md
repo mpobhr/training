@@ -23,6 +23,9 @@
 * Introduction to Dapper
 * Dapper Query
 * Dapper Execute
+
+# Session 6
 * Dapper Advance Mapping
-* Introduction to Entity Framework Core
+* Introduction to Entity Framework (EF) Core
 * Dapper Entity
+* EF Core Code first
