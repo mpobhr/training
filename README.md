@@ -26,8 +26,8 @@
 * Configuration and Dependency Injection
 * Data Management with Database (Sql Server and MySQL)
 * Dapper and Entity Framework
-* Paging, Form Validation
 * Authentication and Authorization
+* Paging, Form Validation
 * Layout, Partial Page
 * CSS and Javascript
 
@@ -40,7 +40,7 @@
 * Bug Fix, Enhancement, Or New Version Development and Deployment.
 
 ## Intermediate Web Application Development.
-* Web service and Microservice
+* Web service and Micro service
 * Integrate with other service (Database access or Rest API / Web Service)
 * Reporting with Chart and Document (csv, pdf, word, excel)
 * Profiling and Exception handling
